@@ -3,15 +3,17 @@
     margin: 0%;
 }
 #container{
-    background-color: blueviolet;
+    background-color: purple;
     height: 720px;
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 #item-1, #item-2, #item-3, #item-4 {
     background-color: orange;
-    height: 40vh;
     height: 120px;
     width: 120px;
     border: 1px solid black;
