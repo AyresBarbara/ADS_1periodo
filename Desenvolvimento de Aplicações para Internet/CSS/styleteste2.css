@@ -1,0 +1,20 @@
+.textos-com-background{
+   display: block;
+}
+#texto-com-outra-cor{
+    color: black;
+    background-color: yellow;
+    display: inline;
+}
+
+#text-color{
+    color: orange;
+
+    
+}
+#text-color2{
+    color: orange;
+    background-color: yellow;
+    display: inline;
+
+}
