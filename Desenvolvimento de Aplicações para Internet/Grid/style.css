@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+#container-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(110, 109, 106);
+    height: 500px;
+    width: 500px;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+#container-grid > div{
+    width: 100px;
+    height: 100px;
+}
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+    background-color: blueviolet;
+}
+.item-4{
+    background-color: goldenrod;
+}
+.item-3{
+    background-color: blue;
+}
+.item-5{
+    background-color: chocolate;
+}
+.item-6{
+    background-color: chartreuse;
+}
+.item-7{
+    background-color: crimson;
+}
+.item-8{
+    background-color: rgb(184, 11, 170);
+}
