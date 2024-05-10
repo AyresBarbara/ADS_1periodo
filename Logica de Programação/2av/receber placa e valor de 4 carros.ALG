@@ -2,13 +2,15 @@ Algoritmo "semnome"
 
 Var
  placa: caractere
- cont: inteiro
+ cont, valor: inteiro
 
 Inicio
 
       para cont de 1 ate 4 faca
-           escreval ("Qual a placa do seu carro?")
+           escreval ("Informe a placa do veículo ", cont)
            leia(placa)
+           escreval ("Informe o valor do veículo ", cont)
+           leia(valor)
     fimpara
 
 
