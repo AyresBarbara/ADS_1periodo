@@ -2,7 +2,8 @@ Algoritmo "semnome"
 
 Var
  placa: caractere
- cont, valor: inteiro
+ cont: inteiro
+ valor, soma: real
 
 Inicio
 
@@ -11,7 +12,10 @@ Inicio
            leia(placa)
            escreval ("Informe o valor do veículo ", cont)
            leia(valor)
+           soma <- soma + valor
+           escreval("soma parcial ", soma)
     fimpara
-
+       escreval("soma final ", soma)
+       escreval("media ", soma/4)
 
 Fimalgoritmo
