@@ -21,6 +21,8 @@
 }
 #button{
     margin-right: 10px;
+    width: 60px;
+    height: 25px;
 }
 .main{
     display: grid;
