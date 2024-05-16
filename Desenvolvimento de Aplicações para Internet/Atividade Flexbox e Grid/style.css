@@ -24,14 +24,14 @@
 }
 .main{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 .container-2{
     display: flex;
     flex-direction: column;
     background-color: pink;
     height: auto;
-    width: 350px;
+    width: auto;
 }
 .barra-nav{
     display: flex;
