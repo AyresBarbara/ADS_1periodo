@@ -1,8 +1,6 @@
 *{
     margin: 0%;
     padding: 0%;
-    height: auto;
-    width: auto;
 }
 .container-1{
     display: flex;
@@ -10,13 +8,12 @@
     justify-content:space-between;
     align-items: center;
     background-color: rgb(209, 0, 98);
-    height: 50px;
-    width: auto;
-    
+    height: 50px;    
 }
 #img{
     height: 30px;
     height: 30px;
+    margin-left: 10px;
 }
 #img2{
     height: 20px;
