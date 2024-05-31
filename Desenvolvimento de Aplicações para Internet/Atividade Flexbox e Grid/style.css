@@ -9,6 +9,7 @@
     align-items: center;
     background-color: rgb(209, 0, 98);
     height: 50px;    
+
 }
 .navbar{
     display: flex;
@@ -64,6 +65,7 @@
     align-items:center;
     column-gap: 10px;
     row-gap: 10px;
+    width: auto;
 }
 .item-2{
     width: 150px;
@@ -87,5 +89,5 @@ p{
     align-items: center;
     background-color: rgb(209, 0, 98);
     height: 50px;
-    width: auto;
+
 }
